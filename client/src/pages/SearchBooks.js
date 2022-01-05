@@ -5,6 +5,14 @@ import Auth from '../utils/auth';
 import { saveBook, searchGoogleBooks } from '../utils/API';
 import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
 
+// import queries and mutation
+// import { GET_ME } from '../utils/queries';
+// import { SAVE_BOOK } from '../utils/mutations';
+
+
+import savedBooks from './SavedBooks';
+
+
 const SearchBooks = () => {
   // create state for holding returned google api data
   const [searchedBooks, setSearchedBooks] = useState([]);
@@ -20,10 +28,14 @@ const SearchBooks = () => {
     return () => saveBookIds(savedBookIds);
   });
 
+  // useEffect(() => {
+  //   savedBooks()
+  //   }, []);
+
   // create method to search for books and set state on form submit
   const handleFormSubmit = async (event) => {
     event.preventDefault();
-
+    
     if (!searchInput) {
       return false;
     }
@@ -60,6 +72,9 @@ const SearchBooks = () => {
     // get token
     const token = Auth.loggedIn() ? Auth.getToken() : null;
 
+
+   
+
     if (!token) {
       return false;
     }
@@ -72,7 +87,8 @@ const SearchBooks = () => {
       }
 
       // if book successfully saves to user's account, save book id to state
-      setSavedBookIds([...savedBookIds, bookToSave.bookId]);
+      // setSavedBookIds([...savedBookIds, bookToSave.bookId]);
+
     } catch (err) {
       console.error(err);
     }
