@@ -1,4 +1,4 @@
-import { gql } from '@apallo/client';
+import { gql } from '@apollo/client';
 
  export const QUERY_ME = gql`
  {
