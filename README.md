@@ -30,7 +30,7 @@ If you are cloning this repo, create a .gitignore file to the root of this folde
 
 ## Features
 
- The user/s can be created, and logged in and out, using JSON Web Tokenss. The user can search books via the google books api. The user can save the books to their own list of books. 
+ The user/s can be created, and logged in and out, using JSON Web Tokens. The user can search books via the google books api. The user can save the books to their own list of books. 
  <br/>
  <br/>
  Made with:<br/>
