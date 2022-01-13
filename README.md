@@ -26,7 +26,7 @@ Clone the above GitHub repo
 
 To install this code, run `npm install` in the terminal of your IDE to install all dependencies. You will need to do this in the root folder and in the server and client folders. In your terminal, type `npm run start`. Navigate to `http://localhost:3001/` to go to the app or follow the link provided in your terminal to test using GraphQl ! 
 
-If you are cloning this repo, add a .gitignore file to the root of this folder and add the words:  node_modules 
+If you are cloning this repo, create a .gitignore file to the root of this folder and add the following: `node_modules` 
 
 ## Features
 
