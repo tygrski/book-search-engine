@@ -15,7 +15,6 @@
 On this  application, you can create a user , add search and save book from you searched topics. 
 
 ## Screenshot
-![social-network-api](https://user-images.githubusercontent.com/77369211/148496843-973868f4-4300-4a0b-8483-0c22c5502194.jpg)
 
 ## Setup
 
