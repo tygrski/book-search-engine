@@ -17,7 +17,6 @@ Live Link: https://travis-book-search.herokuapp.com/
 
 ## Screenshot
 
-
 ![Screenshot 2022-01-18 140423](https://user-images.githubusercontent.com/77369211/150010363-13618e2d-d0aa-46b3-a29d-be2658d7b387.jpg)
 
 ## Setup
